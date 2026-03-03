@@ -1,11 +1,14 @@
+- name: Winston Bot 中文檢查
+  uses: elvisdragonmao/WinstonBot-CI@v1.0.2
+  
 name: ci
 
-on:
+于:
   push:
-    branches:
+    分支:
       - main
   schedule:
-    - cron: "1 23 * * *"
+    - cron: "1 23 * * 1"
 
 jobs:
   autogreen:
